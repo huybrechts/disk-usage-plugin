@@ -24,7 +24,7 @@ import java.util.logging.Logger;
  * 
  * @author dvrzalik
  */
-@Extension
+//@Extension
 public class DiskUsageThread extends AsyncPeriodicWork {
     //trigger disk usage thread each 6 hours
     public static final int COUNT_INTERVAL_MINUTES = 60*6;
